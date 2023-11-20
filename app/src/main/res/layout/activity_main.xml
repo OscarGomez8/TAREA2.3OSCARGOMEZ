@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/fotoTomada"
+        android:layout_width="184dp"
+        android:layout_height="236dp"
+        android:layout_marginLeft="111dp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <ImageButton
+        android:id="@+id/btntomarfoto"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginRight="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/add_foto" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="300dp"
+        android:text="Descripción"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/material_dynamic_primary70"
+
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Salvar Fotografía"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnVerLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Ver Lista de Fotografías"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>
